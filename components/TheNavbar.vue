@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center">
           <div class="flex-shrink-0">
@@ -15,7 +15,11 @@
           <div class="hidden md:block">
             <div class="ml-10 flex">
               <ul v-for="item in items" :key="item">
-                <NavbarItem :item="item" />
+                <nuxt-link
+                  :to="item.link"
+                  class="mt-1 block ml-4 px-3 py-2 rounded-md text-lg font-medium text-gray-800 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+                  >{{ item.title }}</nuxt-link
+                >
               </ul>
             </div>
           </div>
@@ -24,7 +28,7 @@
           <!-- Mobile menu button -->
           <button
             @click="toggle"
-            class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 focus:text-white"
+            class="inline-flex items-center justify-center p-2 rounded-md text-gray-800 hover:text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 focus:text-white"
           >
             <svg
               :class="[isOpen ? 'hidden' : 'block', 'h-6 w-6']"
@@ -60,7 +64,11 @@
     <div :class="[isOpen ? '' : 'hidden', 'md:hidden']">
       <div class="px-2 pt-2 pb-3 sm:px-3">
         <ul v-for="item in items" :key="item">
-          <NavbarItem :item="item" />
+          <nuxt-link
+            :to="item.link"
+            class="mt-1 block ml-4 px-3 py-2 rounded-md text-lg font-medium text-gray-800 hover:text-white hover:bg-blue-700 focus:outline-none focus:text-white focus:bg-blue-700"
+            >{{ item.title }}</nuxt-link
+          >
         </ul>
       </div>
     </div>
@@ -68,12 +76,15 @@
 </template>
 
 <script>
-import NavbarItem from "@/components/NavbarItem.vue";
-
 export default {
   data() {
     return {
-      items: ["services", "projects", "reviews", "contact"],
+      items: [
+        { link: "services", title: "Services" },
+        { link: "projects", title: "Projects" },
+        { link: "reviews", title: "Reviews" },
+        { link: "contact", title: "Contact" }
+      ],
       isOpen: false
     };
   },
