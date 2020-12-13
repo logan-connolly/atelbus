@@ -1,6 +1,6 @@
 <template>
   <div class="lg:2/6 xl:w-2/4 mt-20 lg:mt-40 lg:ml-16 text-left">
-    <div class="text-6xl font-semibold text-gray-900 leading-none">
+    <div class="text-5xl font-semibold text-gray-900 leading-none">
       Keep your vehicles on the road
       <span class="text-blue-700">where they belong</span>
     </div>

@@ -1,15 +1,11 @@
 <template>
   <nav class="bg-white">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl mx-auto px-4 pt-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
         <div class="flex items-center">
           <div class="flex-shrink-0">
-            <nuxt-link to="/">
-              <img
-                class="h-8 w-8"
-                src="https://upload.wikimedia.org/wikipedia/commons/e/e6/Bus-logo.svg"
-                alt="ATEL Bus & Truck"
-              />
+            <nuxt-link to="/" class="font-black text-xl text-blue-700">
+              ATEL Bus & Truck
             </nuxt-link>
           </div>
           <div class="hidden md:block">
