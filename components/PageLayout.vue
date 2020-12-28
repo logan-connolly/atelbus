@@ -14,7 +14,9 @@
           <div class="flex mt-6 mb-12 justify-center">
             <div class="w-16 h-1 rounded-full bg-blue-700 inline-flex"></div>
           </div>
-          <slot></slot>
+          <div>
+            <slot></slot>
+          </div>
         </div>
       </div>
     </section>
@@ -23,6 +25,6 @@
 
 <script>
 export default {
-  props: ["name", "desc"],
+  props: ["name", "desc"]
 };
 </script>
