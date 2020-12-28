@@ -1,7 +1,7 @@
 <template>
   <div class="grid-page">
     <div class="nav">
-      <div class="nav-logo">ATEL</div>
+      <nuxt-link to="/" class="nav-logo">ATEL</nuxt-link>
       <TheNavbar />
     </div>
     <div class="content">
@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import TheNavbar from "@/components/TheNavbar.vue";
-import TheFooter from "@/components/TheFooter.vue";
+import TheNavbar from "@/components/layouts/TheNavbar.vue";
+import TheFooter from "@/components/layouts/TheFooter.vue";
 
 export default {
   components: {
@@ -43,6 +43,7 @@ export default {
   margin: 0, auto;
   color: red;
   font-size: 2em;
+  text-decoration: none;
 }
 
 .content {

@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import ServiceCard from "@/components/ServiceCard.vue";
+import ServiceCard from "@/components/services/ServiceCard.vue";
 
 export default {
   components: {
