@@ -1,30 +1,46 @@
 <template>
-  <div>
-    <section class="text-gray-900 bg-white">
-      <div class="max-w-6xl mx-auto px-5 py-12 ">
-        <div class="text-center mb-20">
-          <h1
-            class="title-font mb-4 text-blue-700 text-4xl font-extrabold leading-10 tracking-tight sm:text-4xl sm:leading-none md:text-5xl"
-          >
-            {{ name }}
-          </h1>
-          <p class="text-base leading-relaxed flex-shrink-0 w-4/5 mx-auto">
-            {{ desc }}
-          </p>
-          <div class="flex mt-6 mb-12 justify-center">
-            <div class="w-16 h-1 rounded-full bg-blue-700 inline-flex"></div>
-          </div>
-          <div>
-            <slot></slot>
-          </div>
-        </div>
-      </div>
-    </section>
+  <div class="page">
+    <div class="page-name">{{ name }}</div>
+    <div class="page-desc">
+      <slot name="header"></slot>
+    </div>
+    <div class="page-divider"></div>
+    <div class="page-content">
+      <slot name="content"></slot>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["name", "desc"]
+  props: ["name"]
 };
 </script>
+
+<style>
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.page-name {
+  color: #014f86;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.page-desc {
+  margin-top: 1rem;
+}
+
+.page-divider {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 4rem;
+  height: 0.25rem;
+  border: 2px solid #014f86;
+}
+</style>

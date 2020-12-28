@@ -13,15 +13,14 @@ export default {};
 
 <style scoped>
 .nav-items {
-  grid-column: 1 / -2;
   display: flex;
   margin-left: auto;
 }
 
 .nav-item {
   margin: 1em 1em;
+  text-decoration: none;
   color: #014f86;
-  font-weight: 700;
 }
 
 .nav-item:hover {

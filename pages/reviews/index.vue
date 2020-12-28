@@ -1,19 +1,22 @@
 <template>
-  <page-layout :name="name" :desc="desc"> </page-layout>
+  <page-layout name="Reviews">
+    <template v-slot:header>
+      Here is what our customers are saying about ATEL.
+    </template>
+    <template v-slot:content>
+      <div class="reviews">
+        Insert Review Cards here
+      </div>
+    </template>
+  </page-layout>
 </template>
 
 <script>
-import PageLayout from "@/components/PageLayout.vue";
-
-export default {
-  components: {
-    PageLayout,
-  },
-  data() {
-    return {
-      name: "Reviews",
-      desc: "Here is what are customers are saying about ATEL.",
-    };
-  },
-};
+export default {};
 </script>
+
+<style scoped>
+.reviews {
+  color: red;
+}
+</style>

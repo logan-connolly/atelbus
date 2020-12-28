@@ -33,6 +33,7 @@ export default {};
   }
   .welcome-subtitle {
     font-size: 1.75rem;
+    font-weight: 700;
   }
 }
 </style>
