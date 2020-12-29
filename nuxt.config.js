@@ -47,7 +47,7 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [],
+  buildModules: ["@nuxtjs/fontawesome"],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ["@nuxt/image"],
@@ -56,5 +56,14 @@ export default {
   build: {},
 
   // Image configuration
-  image: {}
+  image: {},
+
+  // Font Awesome configuration
+  fontawesome: {
+    component: "fa",
+    icons: {
+      solid: true,
+      brands: ["faFacebookSquare", "faLinkedin", "faYelp"]
+    }
+  }
 };

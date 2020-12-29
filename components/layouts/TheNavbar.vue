@@ -18,7 +18,7 @@ export default {};
 
 <style>
 .nav {
-  grid-column: 3 / -2;
+  grid-column: 3 / -3;
   display: flex;
 }
 
@@ -36,5 +36,11 @@ export default {};
 
 .nav-item:hover {
   color: #13478e;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    grid-column: 2 / -1;
+  }
 }
 </style>

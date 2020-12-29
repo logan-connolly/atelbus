@@ -12,6 +12,6 @@ export default {
 
 <style>
 .service-name {
-  padding: 2rem;
+  padding: 4rem;
 }
 </style>
