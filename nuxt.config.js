@@ -28,12 +28,7 @@ export default {
         sizes: "16x16",
         href: "/favicon-16x16.png"
       },
-      { rel: "manifest", href: "/site.webmanifest" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      }
+      { rel: "manifest", href: "/site.webmanifest" }
     ]
   },
 
@@ -47,16 +42,21 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: ["@nuxtjs/fontawesome"],
+  buildModules: ["@nuxtjs/google-fonts", "@nuxtjs/fontawesome"],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ["@nuxt/image"],
+  modules: [],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
 
   // Image configuration
-  image: {},
+  googleFonts: {
+    download: true,
+    families: {
+      "Open+Sans": true
+    }
+  },
 
   // Font Awesome configuration
   fontawesome: {
