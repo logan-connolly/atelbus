@@ -1,11 +1,13 @@
 <template>
-  <page-layout name="Reviews">
+  <page-layout name="About">
     <template v-slot:header>
-      Here is what our customers are saying about ATEL.
+      ATEL Bus & Truck was established in 1994 to provide high quality, reliable
+      and comprehensive bus sales and transportation support services for both
+      public and private sector markets.
     </template>
     <template v-slot:content>
       <div class="reviews">
-        Insert Review Cards here
+        Insert About Info here
       </div>
     </template>
   </page-layout>
