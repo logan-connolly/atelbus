@@ -27,7 +27,7 @@ export default {
 }
 
 .page-name {
-  color: #014f86;
+  color: #13478e;
   font-weight: bold;
   font-size: 2em;
 }
@@ -41,6 +41,6 @@ export default {
   margin-bottom: 2rem;
   width: 4rem;
   height: 0.25rem;
-  border: 2px solid #014f86;
+  border: 2px solid #13478e;
 }
 </style>

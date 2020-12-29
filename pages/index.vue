@@ -24,7 +24,7 @@ export default {};
 
 .welcome-subtitle {
   font-size: 2.75rem;
-  color: #014f86;
+  color: #13478e;
 }
 
 @media screen and (max-width: 600px) {

@@ -1,10 +1,12 @@
 <template>
   <div class="nav">
-    <nuxt-link to="/" class="nav-logo">ATEL</nuxt-link>
+    <nuxt-link to="/">
+      <nuxt-image :lazy="false" src="/logo.png" />
+    </nuxt-link>
     <div class="nav-items">
       <nuxt-link to="services" class="nav-item">Services</nuxt-link>
       <nuxt-link to="projects" class="nav-item">Projects</nuxt-link>
-      <nuxt-link to="reviews" class="nav-item">Reviews</nuxt-link>
+      <nuxt-link to="about" class="nav-item">About</nuxt-link>
       <nuxt-link to="contact" class="nav-item">Contact</nuxt-link>
     </div>
   </div>
@@ -20,25 +22,19 @@ export default {};
   display: flex;
 }
 
-.nav-logo {
-  margin: 0, auto;
-  color: red;
-  font-size: 2em;
-  text-decoration: none;
-}
-
 .nav-items {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .nav-item {
   margin: 1em 1em;
   text-decoration: none;
-  color: #014f86;
+  color: #000;
 }
 
 .nav-item:hover {
-  color: #2a6f97;
+  color: #13478e;
 }
 </style>

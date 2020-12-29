@@ -42,10 +42,17 @@ export default {
 <style>
 .service-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 2em;
 }
 
 .service-grid-item {
   border: 1px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>
