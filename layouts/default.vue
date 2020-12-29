@@ -24,7 +24,7 @@ export default {
 .grid-page {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 80px auto 40px;
+  grid-template-rows: 80px auto 60px;
   width: 100%;
   height: 100vh;
 }
