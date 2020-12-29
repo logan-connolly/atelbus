@@ -1,9 +1,12 @@
 <template>
-  <div class="nav-items">
-    <nuxt-link to="services" class="nav-item">Services</nuxt-link>
-    <nuxt-link to="projects" class="nav-item">Projects</nuxt-link>
-    <nuxt-link to="reviews" class="nav-item">Reviews</nuxt-link>
-    <nuxt-link to="contact" class="nav-item">Contact</nuxt-link>
+  <div class="nav">
+    <nuxt-link to="/" class="nav-logo">ATEL</nuxt-link>
+    <div class="nav-items">
+      <nuxt-link to="services" class="nav-item">Services</nuxt-link>
+      <nuxt-link to="projects" class="nav-item">Projects</nuxt-link>
+      <nuxt-link to="reviews" class="nav-item">Reviews</nuxt-link>
+      <nuxt-link to="contact" class="nav-item">Contact</nuxt-link>
+    </div>
   </div>
 </template>
 
@@ -11,7 +14,19 @@
 export default {};
 </script>
 
-<style scoped>
+<style>
+.nav {
+  grid-column: 3 / -2;
+  display: flex;
+}
+
+.nav-logo {
+  margin: 0, auto;
+  color: red;
+  font-size: 2em;
+  text-decoration: none;
+}
+
 .nav-items {
   display: flex;
   margin-left: auto;

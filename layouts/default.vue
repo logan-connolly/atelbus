@@ -1,15 +1,10 @@
 <template>
   <div class="grid-page">
-    <div class="nav">
-      <nuxt-link to="/" class="nav-logo">ATEL</nuxt-link>
-      <TheNavbar />
-    </div>
+    <the-navbar></the-navbar>
     <div class="content">
-      <Nuxt />
+      <nuxt></nuxt>
     </div>
-    <div class="footer">
-      <TheFooter />
-    </div>
+    <the-footer></the-footer>
   </div>
 </template>
 
@@ -34,28 +29,11 @@ export default {
   height: 100vh;
 }
 
-.nav {
-  grid-column: 3 / -1;
-  display: flex;
-}
-
-.nav-logo {
-  margin: 0, auto;
-  color: red;
-  font-size: 2em;
-  text-decoration: none;
-}
-
 .content {
   display: flex;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   grid-column: 3 / -3;
   grid-row: 2;
   justify-content: center;
-}
-
-.footer {
-  grid-column: 1 / -1;
-  grid-row: 3;
 }
 </style>
