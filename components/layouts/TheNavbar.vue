@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
     <nuxt-link to="/">
-      <nuxt-image :lazy="false" src="/logo.png" />
+      <img class="nav-logo" src="/logo.svg" />
     </nuxt-link>
     <div class="nav-items">
       <nuxt-link to="services" class="nav-item">Services</nuxt-link>
@@ -20,6 +20,11 @@ export default {};
 .nav {
   grid-column: 3 / -3;
   display: flex;
+}
+
+.nav-logo {
+  width: 100px;
+  height: 80px;
 }
 
 .nav-items {
@@ -41,6 +46,11 @@ export default {};
 @media screen and (max-width: 600px) {
   .nav {
     grid-column: 2 / -1;
+  }
+  .nav-logo {
+    margin-top: 1rem;
+    width: 80px;
+    height: 60px;
   }
 }
 </style>
