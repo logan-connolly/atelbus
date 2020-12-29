@@ -53,6 +53,7 @@ export default {
   // Image configuration
   googleFonts: {
     download: true,
+    subsets: "latin",
     families: {
       "Open+Sans": true
     }
