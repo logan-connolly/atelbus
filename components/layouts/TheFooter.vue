@@ -21,7 +21,7 @@ export default {};
   grid-column: 1 / -1;
   grid-row: 3;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   background: #13478e;
   font-size: 0.8rem;
