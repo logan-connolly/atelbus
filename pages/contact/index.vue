@@ -4,15 +4,18 @@
       Get in touch with us by filling out the contact form.
     </template>
     <template v-slot:content>
-      <div class="contact-form">
-        Insert Contact Form here
-      </div>
+      <contact-form></contact-form>
     </template>
   </page-layout>
 </template>
 
 <script>
-export default {};
+import ContactForm from "@/components/contact/ContactForm.vue";
+export default {
+  components: {
+    ContactForm
+  }
+};
 </script>
 
 <style scoped>
