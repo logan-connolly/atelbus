@@ -46,11 +46,7 @@ export default {
   grid-gap: 2em;
 }
 
-.service-grid-item {
-  border: 1px solid black;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .service-grid {
     grid-template-columns: 1fr;
   }
