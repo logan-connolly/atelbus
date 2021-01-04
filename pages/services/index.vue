@@ -29,10 +29,10 @@ export default {
   data() {
     return {
       services: [
-        { name: "Body Work" },
-        { name: "Mechanical Repairs" },
-        { name: "Custom Paint" },
-        { name: "RV Repair" }
+        { name: "Body Work", img: "/services/body.jpg" },
+        { name: "Mechanical Repairs", img: "/services/mechanical.jpg" },
+        { name: "Custom Paint", img: "/services/paint.jpg" },
+        { name: "RV Repair", img: "/services/rv.jpg" }
       ]
     };
   }

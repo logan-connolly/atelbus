@@ -2,8 +2,8 @@
   <div class="service-card">
     <nuxt-image
       :lazy="false"
-      sizes="200,340:350,750:300,1000:350,1200:400"
-      src="/services/rv.jpg"
+      sizes="200,340:350,700:300,1000:350,1200:400"
+      :src="service.img"
     />
   </div>
 </template>
