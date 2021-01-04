@@ -29,10 +29,26 @@ export default {
   data() {
     return {
       services: [
-        { name: "Body Work", img: "/services/body.jpg" },
-        { name: "Mechanical Repairs", img: "/services/mechanical.jpg" },
-        { name: "Custom Paint", img: "/services/paint.jpg" },
-        { name: "RV Repair", img: "/services/rv.jpg" }
+        {
+          name: "Body Repair",
+          img: "/services/body.jpg",
+          link: "/services/body"
+        },
+        {
+          name: "Mechanical Repair",
+          img: "/services/mechanical.jpg",
+          link: "/services/mechanical"
+        },
+        {
+          name: "Custom Paint",
+          img: "/services/paint.jpg",
+          link: "/services/paint"
+        },
+        {
+          name: "RV & Motorhome Repair",
+          img: "/services/rv.jpg",
+          link: "/services/rv"
+        }
       ]
     };
   }

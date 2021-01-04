@@ -1,11 +1,11 @@
 <template>
-  <div class="service-card">
+  <nuxt-link :to="service.link">
     <nuxt-image
       :lazy="false"
       sizes="200,340:350,700:300,1000:350,1200:400"
       :src="service.img"
     />
-  </div>
+  </nuxt-link>
 </template>
 
 <script>
@@ -14,10 +14,4 @@ export default {
 };
 </script>
 
-<style>
-.service-card {
-}
-
-.service-name {
-}
-</style>
+<style></style>
