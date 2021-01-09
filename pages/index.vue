@@ -32,24 +32,25 @@ export default {};
   gap: 2em;
   text-align: center;
 }
-
 .welcome-title {
   font-size: 2.75rem;
 }
-
 .welcome-subtitle {
   font-size: 2.75rem;
   font-weight: bold;
   color: #13478e;
 }
-
 @media screen and (max-width: 600px) {
   .welcome-title {
-    font-size: 1.75rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
   }
   .welcome-subtitle {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 700;
+  }
+  .welcome-info {
+    font-size: 0.9rem;
   }
 }
 
@@ -58,13 +59,12 @@ export default {};
   justify-content: start;
   gap: 0.5em;
 }
-
 .button {
   display: inline-block;
   padding: 0.46em 1.6em;
   border: 0.1em solid #000000;
   margin: 0 0.2em 0.2em 0;
-  border-radius: 0.12em;
+  border-radius: 8px;
   box-sizing: border-box;
   text-decoration: none;
   font-weight: 300;
@@ -74,26 +74,23 @@ export default {};
   text-align: center;
   transition: all 0.15s;
 }
-
 .button:hover {
   text-shadow: 0 0 2em rgba(255, 255, 255, 1);
 }
-
 .button__primary {
   background-color: #13478e;
   color: #fff;
 }
-
 .button__secondary {
   border-color: #13478e;
   background-color: rgba(0, 0, 0, 0);
   color: #13478e;
 }
-
 @media all and (max-width: 30em) {
   .button {
     display: block;
     margin: 0.4em auto;
+    font-size: 0.9rem;
   }
 }
 </style>

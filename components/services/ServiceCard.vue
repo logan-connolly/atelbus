@@ -1,7 +1,11 @@
 <template>
-  <div class="service-card">
-    <div class="service-name">{{ service.name }}</div>
-  </div>
+  <nuxt-link :to="service.link">
+    <nuxt-image
+      :lazy="false"
+      sizes="200,340:350,700:300,1000:350,1200:400"
+      :src="service.img"
+    />
+  </nuxt-link>
 </template>
 
 <script>
@@ -10,8 +14,4 @@ export default {
 };
 </script>
 
-<style>
-.service-name {
-  padding: 4rem;
-}
-</style>
+<style></style>

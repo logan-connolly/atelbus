@@ -29,10 +29,26 @@ export default {
   data() {
     return {
       services: [
-        { name: "Body Work" },
-        { name: "Mechanical Repairs" },
-        { name: "Custom Paint" },
-        { name: "RV Repair" }
+        {
+          name: "Body Repair",
+          img: "/services/body.jpg",
+          link: "/services/body"
+        },
+        {
+          name: "Mechanical Repair",
+          img: "/services/mechanical.jpg",
+          link: "/services/mechanical"
+        },
+        {
+          name: "Custom Paint",
+          img: "/services/paint.jpg",
+          link: "/services/paint"
+        },
+        {
+          name: "RV & Motorhome Repair",
+          img: "/services/rv.jpg",
+          link: "/services/rv"
+        }
       ]
     };
   }
@@ -46,11 +62,7 @@ export default {
   grid-gap: 2em;
 }
 
-.service-grid-item {
-  border: 1px solid black;
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .service-grid {
     grid-template-columns: 1fr;
   }
