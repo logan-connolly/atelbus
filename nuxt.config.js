@@ -42,29 +42,32 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: ["@nuxtjs/google-fonts", "@nuxtjs/fontawesome"],
+  buildModules: [
+    [
+      "@nuxtjs/fontawesome",
+      {
+        component: "fa",
+        icons: {
+          solid: true,
+          brands: ["faFacebookSquare", "faLinkedin", "faYelp"]
+        }
+      }
+    ],
+    [
+      "@nuxtjs/google-fonts",
+      {
+        download: true,
+        subsets: "latin",
+        families: {
+          Cantarell: true
+        }
+      }
+    ]
+  ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ["@nuxt/image"],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
-
-  // Image configuration
-  googleFonts: {
-    download: true,
-    subsets: "latin",
-    families: {
-      "Open+Sans": true
-    }
-  },
-
-  // Font Awesome configuration
-  fontawesome: {
-    component: "fa",
-    icons: {
-      solid: true,
-      brands: ["faFacebookSquare", "faLinkedin", "faYelp"]
-    }
-  }
+  build: {}
 };

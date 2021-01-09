@@ -4,6 +4,10 @@
       Keep your vehicles on the road
       <span class="welcome-subtitle">where they belong</span>
     </div>
+    <div class="welcome-info">
+      Strategically located in Beltsville, MD, we are able to service buses,
+      RVs, cars and SUVs in and around the DMV.
+    </div>
     <div class="buttons">
       <nuxt-link to="services" class="button button__primary"
         >Our Services</nuxt-link
@@ -35,6 +39,7 @@ export default {};
 
 .welcome-subtitle {
   font-size: 2.75rem;
+  font-weight: bold;
   color: #13478e;
 }
 
