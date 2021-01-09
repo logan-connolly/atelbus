@@ -4,10 +4,10 @@
       <img class="nav-logo" src="/logo.svg" />
     </nuxt-link>
     <div class="nav-items">
-      <nuxt-link to="services" class="nav-item">Services</nuxt-link>
-      <nuxt-link to="projects" class="nav-item">Projects</nuxt-link>
-      <nuxt-link to="about" class="nav-item">About</nuxt-link>
-      <nuxt-link to="contact" class="nav-item">Contact</nuxt-link>
+      <nuxt-link to="/services" class="nav-item">Services</nuxt-link>
+      <nuxt-link to="/projects" class="nav-item">Projects</nuxt-link>
+      <nuxt-link to="/about" class="nav-item">About</nuxt-link>
+      <nuxt-link to="/contact" class="nav-item">Contact</nuxt-link>
     </div>
   </div>
 </template>

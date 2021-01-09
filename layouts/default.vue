@@ -42,9 +42,4 @@ export default {
     grid-column: 4/ -4;
   }
 }
-@media screen and (min-width: 1600px) {
-  .content {
-    grid-column: 5/ -5;
-  }
-}
 </style>
