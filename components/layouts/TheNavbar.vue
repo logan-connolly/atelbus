@@ -52,5 +52,8 @@ export default {};
     width: 80px;
     height: 60px;
   }
+  .nav-items {
+    display: none;
+  }
 }
 </style>
