@@ -38,7 +38,7 @@ export default {
 
 .page-divider {
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   width: 4rem;
   height: 0.25rem;
   border: 2px solid #13478e;
