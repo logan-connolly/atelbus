@@ -3,6 +3,7 @@
     <nuxt-link to="/">
       <img class="nav-logo" src="/logo.svg" />
     </nuxt-link>
+    <TheSidebarToggle @toggle="$emit('sidebarToggle')" />
     <div class="nav-items">
       <nuxt-link to="/services" class="nav-item">Services</nuxt-link>
       <nuxt-link to="/projects" class="nav-item">Projects</nuxt-link>
@@ -13,7 +14,13 @@
 </template>
 
 <script>
-export default {};
+import TheSidebarToggle from "@/components/layouts/TheSidebarToggle.vue";
+
+export default {
+  components: {
+    TheSidebarToggle
+  }
+};
 </script>
 
 <style>
@@ -43,7 +50,7 @@ export default {};
   color: #13478e;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .nav {
     grid-column: 2 / -1;
   }
