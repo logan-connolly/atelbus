@@ -1,12 +1,14 @@
 <template>
   <div class="welcome">
-    <div class="welcome-title">
-      Keep your vehicles on the road
-      <span class="welcome-subtitle">where they belong</span>
-    </div>
-    <div class="welcome-info">
-      Strategically located in Beltsville, MD, we are able to service buses,
-      RVs, cars and SUVs in and around the DMV.
+    <div class="welcome-text">
+      <div class="welcome-text__title">
+        Keep your vehicles on the road
+        <span class="welcome-text__subtitle">where they belong</span>
+      </div>
+      <div class="welcome-text__info">
+        Strategically located in Beltsville, MD, we are able to service buses,
+        RVs, cars and SUVs in and around the DMV.
+      </div>
     </div>
     <div class="buttons">
       <nuxt-link to="services" class="button button__primary"
@@ -29,41 +31,46 @@ export default {};
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2em;
   text-align: center;
 }
-.welcome-title {
+.welcome-text > div {
+  margin-top: 2rem;
+}
+.welcome-text__title {
   font-size: 2.75rem;
 }
-.welcome-subtitle {
+.welcome-text__subtitle {
   font-size: 2.75rem;
   font-weight: bold;
   color: #13478e;
 }
+.welcome-text__info {
+  font-size: 1.2rem;
+}
 @media screen and (max-width: 600px) {
-  .welcome-title {
+  .welcome-text__title {
     margin-top: 2rem;
     font-size: 2.25rem;
   }
-  .welcome-subtitle {
+  .welcome-text__subtitle {
     font-size: 2.25rem;
     font-weight: 700;
   }
-  .welcome-info {
-    font-size: 0.9rem;
+  .welcome-text__info {
+    font-size: 1rem;
   }
 }
 
 .buttons {
   display: inline-flex;
   justify-content: start;
-  gap: 0.5em;
+  margin-top: 2rem;
 }
 .button {
   display: inline-block;
-  padding: 0.46em 1.6em;
+  padding: 0.76em 1.9em;
   border: 0.1em solid #000000;
-  margin: 0 0.2em 0.2em 0;
+  margin: 0 0.8em 0.8em 0;
   border-radius: 8px;
   box-sizing: border-box;
   text-decoration: none;
@@ -89,7 +96,6 @@ export default {};
 @media all and (max-width: 30em) {
   .button {
     display: block;
-    margin: 0.4em auto;
     font-size: 0.9rem;
   }
 }

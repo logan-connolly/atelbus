@@ -46,6 +46,11 @@ export default {
   justify-content: center;
 }
 
+@media screen and (max-width: 600px) {
+  .content {
+    grid-column: 2 / -2;
+  }
+}
 @media screen and (min-width: 1000px) {
   .content {
     grid-column: 4/ -4;
