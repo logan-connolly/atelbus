@@ -13,7 +13,6 @@
   margin-left: auto;
   margin-right: 3rem;
   justify-content: center;
-  gap: 7px;
   width: 35px;
   cursor: pointer;
 }
@@ -25,6 +24,7 @@
 }
 
 .drawer-toggle .bar {
+  margin: 4px 0;
   width: 90%;
   height: 3px;
   background-color: #13478e;

@@ -63,8 +63,11 @@ a {
 .social-media {
   display: inline-flex;
   margin-right: 1rem;
-  gap: 1em;
   font-size: 20px;
+}
+
+.social-media > a {
+  margin: 0 10px;
 }
 
 @media screen and (max-width: 768px) {
