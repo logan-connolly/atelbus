@@ -4,6 +4,7 @@
     <transition name="slide-side">
       <div v-if="show" class="sidenav">
         <ul class="nav-list" @click="$emit('close')">
+          <nuxt-link to="/" class="nav-item">Home</nuxt-link>
           <nuxt-link to="/services" class="nav-item">Services</nuxt-link>
           <nuxt-link to="/projects" class="nav-item">Projects</nuxt-link>
           <nuxt-link to="/about" class="nav-item">About</nuxt-link>
@@ -48,7 +49,7 @@ export default {
   z-index: 10000;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   box-sizing: border-box;
   padding: 30px;
 }
@@ -59,15 +60,16 @@ export default {
 }
 .slide-side-enter,
 .slide-side-leave-to {
-  transform: translateX(-100%);
+  transform: translateX(100%);
 }
 
 .nav-list {
   display: flex;
   flex-direction: column;
+  align-items: center;
   list-style: none;
+  margin-top: 2rem;
   padding: 0;
-  margin: 0;
 }
 
 .nav-item {
