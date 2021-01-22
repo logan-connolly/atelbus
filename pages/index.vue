@@ -68,7 +68,7 @@ export default {};
 }
 .button {
   display: inline-block;
-  padding: 0.46em 1.6em;
+  padding: 0.76em 1.9em;
   border: 0.1em solid #000000;
   margin: 0 0.8em 0.8em 0;
   border-radius: 8px;
@@ -96,7 +96,6 @@ export default {};
 @media all and (max-width: 30em) {
   .button {
     display: block;
-    margin: 0.4em auto;
     font-size: 0.9rem;
   }
 }
