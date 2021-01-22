@@ -67,13 +67,15 @@ a {
   font-size: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .footer {
     justify-content: space-between;
   }
   .contact-info {
+    margin-left: 3rem;
   }
   .social-media {
+    margin-right: 3rem;
   }
   .company-name {
     display: none;

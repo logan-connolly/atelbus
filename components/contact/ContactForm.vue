@@ -57,9 +57,9 @@ export default {
 form {
   width: 400px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   form {
-    width: 300px;
+    width: 400px;
   }
 }
 

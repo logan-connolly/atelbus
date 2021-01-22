@@ -43,10 +43,10 @@ export default {};
 @media screen and (max-width: 600px) {
   .welcome-title {
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 2.25rem;
   }
   .welcome-subtitle {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     font-weight: 700;
   }
   .welcome-info {

@@ -1,21 +1,29 @@
 <template>
   <div class="grid-page">
-    <the-navbar></the-navbar>
+    <TheNavbar @sidebarToggle="displaySidebar = !displaySidebar" />
+    <TheSidebar :show="displaySidebar" @close="displaySidebar = false" />
     <div class="content">
-      <nuxt></nuxt>
+      <Nuxt />
     </div>
-    <the-footer></the-footer>
+    <TheFooter />
   </div>
 </template>
 
 <script>
-import TheNavbar from "@/components/layouts/TheNavbar.vue";
 import TheFooter from "@/components/layouts/TheFooter.vue";
+import TheNavbar from "@/components/layouts/TheNavbar.vue";
+import TheSidebar from "@/components/layouts/TheSidebar.vue";
 
 export default {
   components: {
+    TheFooter,
     TheNavbar,
-    TheFooter
+    TheSidebar
+  },
+  data() {
+    return {
+      displaySidebar: false
+    };
   }
 };
 </script>
