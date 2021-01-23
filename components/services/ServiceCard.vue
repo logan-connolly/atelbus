@@ -49,8 +49,6 @@ export default {
 }
 .service-card:hover .service-overlay {
   opacity: 0.9;
-}
-.service-card:hover .service-overlay {
   box-shadow: 10px 10px 10px #999;
 }
 .service-card:hover .service-overlay__text {
