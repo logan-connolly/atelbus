@@ -33,7 +33,7 @@ export default {
 }
 
 .page-desc {
-  margin-top: 1rem;
+  margin: 1rem auto;
 }
 
 .page-divider {
@@ -42,5 +42,11 @@ export default {
   width: 4rem;
   height: 0.25rem;
   border: 2px solid #13478e;
+}
+
+@media screen and (min-width: 1000px) {
+  .page-desc {
+    margin: 1rem 8rem;
+  }
 }
 </style>
