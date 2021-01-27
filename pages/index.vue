@@ -45,6 +45,7 @@ export default {};
   color: #13478e;
 }
 .welcome-text__info {
+  margin: 1rem 4rem;
   font-size: 1.2rem;
 }
 @media screen and (max-width: 600px) {
@@ -74,15 +75,14 @@ export default {};
   border-radius: 8px;
   box-sizing: border-box;
   text-decoration: none;
-  font-weight: 300;
   color: #000000;
-  text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
   background-color: #ffffff;
   text-align: center;
   transition: all 0.15s;
+  font-weight: bold;
 }
 .button:hover {
-  text-shadow: 0 0 2em rgba(255, 255, 255, 1);
+  box-shadow: 5px 5px 5px #999;
 }
 .button__primary {
   background-color: #13478e;

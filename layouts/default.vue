@@ -44,6 +44,7 @@ export default {
   grid-column: 3 / -3;
   grid-row: 2;
   justify-content: center;
+  font-size: 1.3rem;
 }
 
 @media screen and (max-width: 768px) {
