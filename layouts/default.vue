@@ -34,6 +34,7 @@ export default {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto 1fr auto;
   width: 100%;
+  min-height: 100vh;
   height: 100vh;
   height: -webkit-fill-available;
 }
