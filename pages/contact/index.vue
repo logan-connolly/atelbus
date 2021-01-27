@@ -86,6 +86,7 @@ a span {
 @media screen and (max-width: 768px) {
   .contact-items {
     justify-content: start;
+    margin: 0 1.5rem;
   }
   .map {
     display: none;
