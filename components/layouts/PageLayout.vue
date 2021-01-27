@@ -28,12 +28,13 @@ export default {
 
 .page-name {
   color: #13478e;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2em;
 }
 
 .page-desc {
   margin: 1rem auto;
+  color: #4f5869;
 }
 
 .page-divider {

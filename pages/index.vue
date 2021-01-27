@@ -38,15 +38,17 @@ export default {};
 }
 .welcome-text__title {
   font-size: 2.75rem;
+  font-weight: 700;
 }
 .welcome-text__subtitle {
   font-size: 2.75rem;
-  font-weight: bold;
+  font-weight: 700;
   color: #13478e;
 }
 .welcome-text__info {
   margin: 1rem 2rem;
   font-size: 1.2rem;
+  color: #4f5869;
 }
 @media screen and (max-width: 600px) {
   .welcome-text__title {
@@ -79,7 +81,7 @@ export default {};
   background-color: #ffffff;
   text-align: center;
   transition: all 0.15s;
-  font-weight: bold;
+  font-weight: 700;
 }
 .button:hover {
   box-shadow: 5px 5px 5px #999;
