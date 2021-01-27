@@ -43,16 +43,16 @@ export default {
   transition: 0.5s ease;
   border-radius: 5%;
   background-color: #13478e;
+  font-weight: bold;
 }
 .service-card .service-overlay {
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .service-card:hover .service-overlay {
   opacity: 0.9;
   box-shadow: 10px 10px 10px #999;
 }
 .service-card:hover .service-overlay__text {
-  font-weight: bold;
   opacity: 1;
 }
 .service-overlay__text {
