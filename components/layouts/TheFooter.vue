@@ -43,6 +43,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 20px;
   background: #13478e;
   font-size: 0.8rem;
   color: #fff;
@@ -53,17 +54,17 @@ a {
   flex-direction: column;
   align-items: center;
   margin-left: 1rem;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .company-name {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .social-media {
   display: inline-flex;
   margin-right: 1rem;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .social-media > a {
@@ -75,10 +76,10 @@ a {
     justify-content: space-between;
   }
   .contact-info {
-    margin-left: 3rem;
+    margin-left: 1rem;
   }
   .social-media {
-    margin-right: 3rem;
+    margin-right: 1rem;
   }
   .company-name {
     display: none;

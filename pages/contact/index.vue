@@ -46,6 +46,10 @@ export default {};
 </script>
 
 <style scoped>
+.page-divider {
+  margin-bottom: 2rem;
+}
+
 .contact-items {
   display: flex;
   flex-wrap: wrap;

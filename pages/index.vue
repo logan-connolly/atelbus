@@ -70,7 +70,7 @@ export default {};
 .button {
   display: inline-block;
   padding: 0.76em 1.9em;
-  border: 0.1em solid #000000;
+  border: 0.1em solid #13478e;
   margin: 0 0.8em 0.8em 0;
   border-radius: 8px;
   box-sizing: border-box;
@@ -89,7 +89,6 @@ export default {};
   color: #fff;
 }
 .button__secondary {
-  border-color: #13478e;
   background-color: rgba(0, 0, 0, 0);
   color: #13478e;
 }

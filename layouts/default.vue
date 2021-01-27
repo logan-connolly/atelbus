@@ -32,7 +32,7 @@ export default {
 .grid-page {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 80px auto 60px;
+  grid-template-rows: auto 1fr auto;
   width: 100%;
   height: 100vh;
   height: -webkit-fill-available;
