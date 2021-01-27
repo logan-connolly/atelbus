@@ -1,7 +1,7 @@
 <template>
   <footer>
     <div class="contact-info">
-      <a href="tel: +1 (301) 210-5100">+1 (301) 210-5100</a>
+      <a href="tel: +1 (301) 210-5100">(301) 210-5100</a>
       <a href="mailto:info@atelbus.com">info@atelbus.com</a>
     </div>
     <div class="company-name">
