@@ -6,22 +6,22 @@
     </template>
     <template v-slot:content>
       <div class="contact-items">
-        <div class="contact-item contact-item__phone">
+        <div class="contact-item">
           <a href="tel: +1 (301) 210-5100">
             <fa :icon="['fas', 'phone-square-alt']" />
-            (301) 210-5100
+            <span>(301) 210-5100</span>
           </a>
         </div>
-        <div class="contact-item contact-item__email">
+        <div class="contact-item">
           <a href="mailto:info@atelbus.com">
             <fa :icon="['fas', 'envelope-square']" />
-            info@atelbus.com
+            <span>info@atelbus.com</span>
           </a>
         </div>
         <div class="contact-item contact-item__address">
           <a href="https://g.page/ATELBusandTruck?share">
             <fa :icon="['fas', 'map-marker-alt']" />
-            12120 Conway Rd, Beltsville, MD 20705
+            <span>12120 Conway Rd</span>
           </a>
         </div>
       </div>
@@ -29,7 +29,7 @@
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12392.555081894823!2d-76.8861638!3d39.0577516!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd27dd8b154634017!2sATEL%20Bus%20and%20Truck%20Service%20Center%2C%20Inc.!5e0!3m2!1sen!2sde!4v1611768520264!5m2!1sen!2sde"
           width="600"
-          height="450"
+          height="350"
           frameborder="0"
           style="border:0;"
           allowfullscreen=""
@@ -71,15 +71,17 @@ a svg {
   font-size: 1.5rem;
 }
 
+a span {
+  margin-left: 10px;
+}
+
 .map {
   margin-top: 2rem;
 }
 
 @media screen and (max-width: 768px) {
   .contact-items {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: start;
+    justify-content: start;
   }
   .map {
     display: none;
