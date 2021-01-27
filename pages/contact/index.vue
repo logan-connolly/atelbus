@@ -28,7 +28,7 @@
       <div class="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12392.555081894823!2d-76.8861638!3d39.0577516!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd27dd8b154634017!2sATEL%20Bus%20and%20Truck%20Service%20Center%2C%20Inc.!5e0!3m2!1sen!2sde!4v1611768520264!5m2!1sen!2sde"
-          width="600"
+          width="100%"
           height="350"
           frameborder="0"
           style="border:0;"
