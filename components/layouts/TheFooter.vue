@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <footer>
     <div class="contact-info">
       <a href="tel: +1 (301) 210-5100">+1 (301) 210-5100</a>
       <a href="mailto:info@atelbus.com">info@atelbus.com</a>
@@ -24,7 +24,7 @@
         <fa :icon="['fab', 'yelp']" />
       </a>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -37,10 +37,11 @@ a {
   color: #fff;
 }
 
-.footer {
+footer {
   grid-column: 1 / -1;
   grid-row: 3;
   display: flex;
+  flex-shrink: 0;
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
