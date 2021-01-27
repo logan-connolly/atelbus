@@ -45,7 +45,7 @@ export default {};
   color: #13478e;
 }
 .welcome-text__info {
-  margin: 1rem 4rem;
+  margin: 1rem 2rem;
   font-size: 1.2rem;
 }
 @media screen and (max-width: 600px) {
