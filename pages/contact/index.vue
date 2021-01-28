@@ -42,7 +42,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "ATEL Bus & Truck contact information via email, phone and Google maps"
+      }
+    ]
+  }
+};
 </script>
 
 <style scoped>

@@ -23,6 +23,16 @@
 import ServiceCard from "@/components/services/ServiceCard.vue";
 
 export default {
+  head: {
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "ATEL Bus & Truck body, mechanical, paint and RV services for buses, trucks, RVs & motorhomes"
+      }
+    ]
+  },
   components: {
     ServiceCard
   },

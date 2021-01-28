@@ -12,7 +12,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "ATEL Bus & Truck projects showcasing a variety of repairs for buses, trucks and RVs"
+      }
+    ]
+  }
+};
 </script>
 
 <style scoped>

@@ -2,7 +2,6 @@
   <footer>
     <div class="contact-info">
       <a href="tel: +1 (301) 210-5100">(301) 210-5100</a>
-      <a href="mailto:info@atelbus.com">info@atelbus.com</a>
     </div>
     <div class="company-name">
       © ATEL Bus & Truck Service Center, Inc.
@@ -51,11 +50,8 @@ footer {
 }
 
 .contact-info {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
   margin-left: 1rem;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 
 .company-name {

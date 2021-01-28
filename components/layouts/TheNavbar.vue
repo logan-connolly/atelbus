@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
     <nuxt-link to="/">
-      <img class="nav-logo" src="/logo.svg" />
+      <img class="nav-logo" src="/logo.svg" alt="ATEL Bus & Truck Logo" />
     </nuxt-link>
     <TheSidebarToggle @toggle="$emit('sidebarToggle')" />
     <div class="nav-items">

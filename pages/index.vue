@@ -22,7 +22,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "ATEL Bus & Truck Home Page"
+      }
+    ]
+  }
+};
 </script>
 
 <style scoped>

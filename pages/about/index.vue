@@ -59,7 +59,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content: "ATEL Bus & Truck's company history and introduction to team"
+      }
+    ]
+  }
+};
 </script>
 
 <style scoped>
