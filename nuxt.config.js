@@ -71,6 +71,17 @@ export default {
           }
         }
       }
+    ],
+    [
+      "nuxt-compress",
+      {
+        gzip: {
+          cache: true
+        },
+        brotli: {
+          threshold: 10240
+        }
+      }
     ]
   ],
 
