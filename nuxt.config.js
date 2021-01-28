@@ -4,11 +4,18 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
+    htmlAttrs: {
+      lang: "en"
+    },
     title: "Atel Bus & Truck",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      {
+        hid: "description",
+        name: "description",
+        content: "Atel Bus & Truck Company Website"
+      }
     ],
     link: [
       {
@@ -57,6 +64,7 @@ export default {
       "@nuxtjs/google-fonts",
       {
         download: true,
+        display: "swap",
         families: {
           Cantarell: {
             wght: [400, 700]

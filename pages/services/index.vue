@@ -41,22 +41,22 @@ export default {
       services: [
         {
           name: "Body Repair",
-          img: "/services/body.jpg",
+          img: "/services/body.webp",
           link: "/services/body"
         },
         {
           name: "Mechanical Repair",
-          img: "/services/mechanical.jpg",
+          img: "/services/mechanical.webp",
           link: "/services/mechanical"
         },
         {
           name: "Custom Paint",
-          img: "/services/paint.jpg",
+          img: "/services/paint.webp",
           link: "/services/paint"
         },
         {
           name: "RV & Motorhome Repair",
-          img: "/services/rv.jpg",
+          img: "/services/rv.webp",
           link: "/services/rv"
         }
       ]

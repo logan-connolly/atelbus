@@ -1,7 +1,12 @@
 <template>
   <div class="nav">
     <nuxt-link to="/">
-      <img class="nav-logo" src="/logo.svg" alt="ATEL Bus & Truck Logo" />
+      <img
+        src="/logo.svg"
+        alt="ATEL Bus & Truck Logo"
+        width="100"
+        height="80"
+      />
     </nuxt-link>
     <TheSidebarToggle @toggle="$emit('sidebarToggle')" />
     <div class="nav-items">
@@ -27,11 +32,6 @@ export default {
 .nav {
   grid-column: 3 / -3;
   display: flex;
-}
-
-.nav-logo {
-  width: 100px;
-  height: 80px;
 }
 
 .nav-items {
