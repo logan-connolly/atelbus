@@ -1,7 +1,7 @@
 <template>
   <div class="service-card">
     <nuxt-link :to="service.link">
-      <nuxt-image
+      <nuxt-img
         :src="service.img"
         :lazy="false"
         class="service-image"

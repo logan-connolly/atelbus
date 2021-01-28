@@ -66,7 +66,7 @@ export default {};
 
 .buttons {
   display: inline-flex;
-  justify-content: start;
+  justify-content: flex-start;
   margin-top: 2rem;
 }
 .button {
@@ -75,7 +75,6 @@ export default {};
   border: 0.1em solid #13478e;
   margin: 0 0.8em 0.8em 0;
   border-radius: 8px;
-  box-sizing: border-box;
   text-decoration: none;
   color: #000000;
   background-color: #ffffff;
