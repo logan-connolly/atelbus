@@ -57,9 +57,10 @@ export default {
       "@nuxtjs/google-fonts",
       {
         download: true,
-        subsets: "latin",
         families: {
-          Cantarell: true
+          Cantarell: {
+            wght: [400, 700]
+          }
         }
       }
     ]

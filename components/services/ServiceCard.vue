@@ -43,7 +43,7 @@ export default {
   transition: 0.5s ease;
   border-radius: 5%;
   background-color: #13478e;
-  font-weight: bold;
+  font-weight: 700;
 }
 .service-card .service-overlay {
   opacity: 0.8;

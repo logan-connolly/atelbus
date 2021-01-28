@@ -76,6 +76,7 @@ export default {
   margin: 20px 0;
   text-decoration: none;
   color: #fff;
+  font-weight: 700;
   font-size: 2rem;
 }
 
