@@ -2,14 +2,13 @@
   <page-layout name="About">
     <template v-slot:header>
       <p>
-        ATEL Bus & Truck family-owned shop established in 1994. We provide high
-        quality, reliable and comprehensive bus, truck and RV services for both
-        public and private sector markets.
+        ATEL Bus & Truck is a family-owned business since its inception in 1994.
+        We provide high quality, reliable and comprehensive bus, truck and RV
+        services for the public and private sector.
       </p>
       <p>
-        Below you will find a short introduction to members of our team. We
-        thought it would be helpful to put some faces to names before rolling
-        into the shop.
+        We thought it would be nice to names to faces before coming into the
+        shop. So come meet the team!
       </p>
     </template>
 
