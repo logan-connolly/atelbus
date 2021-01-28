@@ -7,14 +7,14 @@ export default {
     htmlAttrs: {
       lang: "en"
     },
-    title: "Atel Bus & Truck",
+    title: "ATEL Bus & Truck",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: "Atel Bus & Truck Company Website"
+        content: "ATEL Bus & Truck Company Website"
       }
     ],
     link: [

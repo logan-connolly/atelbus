@@ -14,6 +14,7 @@
 <script>
 export default {
   head: {
+    title: "ATEL | Projects",
     meta: [
       {
         hid: "description",

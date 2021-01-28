@@ -24,6 +24,7 @@ import ServiceCard from "@/components/services/ServiceCard.vue";
 
 export default {
   head: {
+    title: "ATEL | Services",
     meta: [
       {
         hid: "description",

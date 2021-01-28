@@ -61,6 +61,7 @@
 <script>
 export default {
   head: {
+    title: "ATEL | About",
     meta: [
       {
         hid: "description",

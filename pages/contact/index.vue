@@ -44,6 +44,7 @@
 <script>
 export default {
   head: {
+    title: "ATEL | Contact",
     meta: [
       {
         hid: "description",
