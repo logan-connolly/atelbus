@@ -9,18 +9,21 @@
     <div class="social-media">
       <a
         href="https://www.linkedin.com/company/atel-bus-&-truck-service-center/"
+        target="_blank"
         title="linkedin"
       >
         <fa :icon="['fab', 'linkedin']" />
       </a>
       <a
         href="https://www.facebook.com/pg/ATEL-Bus-Truck-Service-Center-Inc-406003592850990"
+        target="_blank"
         title="facebook"
       >
         <fa :icon="['fab', 'facebook-square']" />
       </a>
       <a
         href="https://www.yelp.com/biz/atel-bus-and-truck-service-center-beltsville-2"
+        target="_blank"
         title="yelp"
       >
         <fa :icon="['fab', 'yelp']" />
