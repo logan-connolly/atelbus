@@ -1,19 +1,17 @@
 <template>
   <div class="service-card">
-    <nuxt-link :to="service.link">
-      <nuxt-img
-        :src="service.img"
-        :lazy="false"
-        class="service-image"
-        fit="cover"
-        sizes="200,340:350,700:300,1000:350,1200:400"
-      />
-      <div class="service-overlay">
-        <div class="service-overlay__text">
-          {{ service.name }}
-        </div>
+    <nuxt-img
+      :src="service.img"
+      :lazy="false"
+      class="service-image"
+      fit="cover"
+      sizes="200,340:350,700:300,1000:350,1200:400"
+    />
+    <div class="service-overlay">
+      <div class="service-overlay__text">
+        {{ service.name }}
       </div>
-    </nuxt-link>
+    </div>
   </div>
 </template>
 
@@ -47,13 +45,6 @@ export default {
 }
 .service-card .service-overlay {
   opacity: 0.8;
-}
-.service-card:hover .service-overlay {
-  opacity: 0.9;
-  box-shadow: 10px 10px 10px #999;
-}
-.service-card:hover .service-overlay__text {
-  opacity: 1;
 }
 .service-overlay__text {
   color: white;
