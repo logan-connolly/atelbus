@@ -9,18 +9,18 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "core-js": "^3.8.3",
+    "nuxt": "^2.14.12"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@nuxt/image": "0.0.4",
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/svg": "^0.1.12",
-    "eslint": "^7.16.0",
-    "eslint-plugin-vue": "^7.3.0",
+    "eslint": "^7.18.0",
+    "eslint-plugin-vue": "^7.5.0",
     "nuxt-compress": "^4.1.0"
   }
 }
