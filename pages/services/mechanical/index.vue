@@ -5,7 +5,7 @@
     </template>
     <template v-slot:content>
       <ServiceChips :items="items" />
-      <ServiceNav :prev="prev" :next="next" />
+      <ServiceNav :next="next" />
     </template>
   </page-layout>
 </template>
@@ -15,6 +15,17 @@ import ServiceChips from "@/components/services/ServiceChips.vue";
 import ServiceNav from "@/components/services/ServiceNav.vue";
 
 export default {
+  head: {
+    title: "ATEL | Services - Mechanical",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "ATEL Bus & Truck mechanical services focus on repairs such as oil changes, electrical repairs, transmissions, engine failure, etc. for buses, trucks, RVs & motorhomes"
+      }
+    ]
+  },
   components: {
     ServiceChips,
     ServiceNav
@@ -29,7 +40,6 @@ export default {
         "Transmission",
         "Power Steering"
       ],
-      prev: { name: "Body Services", url: "/body" },
       next: { name: "Paint Services", url: "/paint" }
     };
   }

@@ -1,22 +1,26 @@
 <template>
   <div class="service-nav-items">
-    <nuxt-link class="service-nav-item" :to="prevLink">
-      {{ prevPage }}
+    <nuxt-link class="service-nav-item" to="/services">
+      <span>
+        <fa :icon="['fas', 'angle-double-left']" />
+      </span>
+      All Services
     </nuxt-link>
     <nuxt-link class="service-nav-item" :to="nextLink">
       {{ nextPage }}
+      <span>
+        <fa :icon="['fas', 'angle-double-right']" />
+      </span>
     </nuxt-link>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["prev", "next"],
+  props: ["next"],
   data() {
     return {
-      prevPage: "<< " + this.prev.name,
-      prevLink: "/services" + this.prev.url,
-      nextPage: this.next.name + " >>",
+      nextPage: this.next.name,
       nextLink: "/services" + this.next.url
     };
   }

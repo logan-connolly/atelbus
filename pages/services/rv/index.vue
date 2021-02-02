@@ -6,7 +6,7 @@
     <template v-slot:content>
       <ServiceChips :items="items" />
       <ServiceVideo :url="url" />
-      <ServiceNav :prev="prev" :next="next" />
+      <ServiceNav :next="next" />
     </template>
   </page-layout>
 </template>
@@ -17,6 +17,17 @@ import ServiceNav from "@/components/services/ServiceNav.vue";
 import ServiceVideo from "@/components/services/ServiceVideo.vue";
 
 export default {
+  head: {
+    title: "ATEL | Services - RV & Additional",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "ATEL Bus & Truck RV and additional services consists of special type of repairs that the average repair shops do not provide for buses, trucks, RVs & motorhomes"
+      }
+    ]
+  },
   components: {
     ServiceChips,
     ServiceNav,
@@ -26,12 +37,14 @@ export default {
     return {
       url: "https://youtube.com/embed/Lz8min0XaZw",
       items: [
+        "Custom Parts",
         "RV Body, Mechanical and Paint",
         "Wheelchair Lift Service",
         "Safety Inspections (A, B, C)",
-        "Aluminum Wheel Polishing"
+        "Aluminum Wheel Polishing",
+        "Waste & Water System",
+        "Slide-Out Rooms"
       ],
-      prev: { name: "Paint Services", url: "/paint" },
       next: { name: "Body Services", url: "/body" }
     };
   }

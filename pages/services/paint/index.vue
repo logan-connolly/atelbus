@@ -6,7 +6,7 @@
     <template v-slot:content>
       <ServiceChips :items="items" />
       <ServiceVideo :url="url" />
-      <ServiceNav :prev="prev" :next="next" />
+      <ServiceNav :next="next" />
     </template>
   </page-layout>
 </template>
@@ -17,6 +17,17 @@ import ServiceNav from "@/components/services/ServiceNav.vue";
 import ServiceVideo from "@/components/services/ServiceVideo.vue";
 
 export default {
+  head: {
+    title: "ATEL | Services - Paint",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "ATEL Bus & Truck paint services consist of full paint jobs, touch-up repairs as well as custom paint jobs and vehicle wraps for buses, trucks, RVs & motorhomes"
+      }
+    ]
+  },
   components: {
     ServiceChips,
     ServiceNav,
@@ -28,9 +39,11 @@ export default {
       items: [
         "Graphic Design",
         "Vehicle Wraps",
-        "45' & 65' Heated Paint Booths"
+        "45' & 65' Heated Paint Booths",
+        "Refinishing",
+        "Touch-ups",
+        "Decal Removal"
       ],
-      prev: { name: "Mechanical Services", url: "/mechanical" },
       next: { name: "RV & Additional Services", url: "/rv" }
     };
   }
