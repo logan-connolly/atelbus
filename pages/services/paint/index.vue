@@ -1,8 +1,6 @@
 <template>
   <page-layout name="Custom Paint">
-    <template v-slot:header>
-      Our custom paint services meet all US DOT regulations.
-    </template>
+    <template v-slot:header> </template>
     <template v-slot:content>
       <ServiceChips :items="items" />
       <ServiceVideo :url="url" />

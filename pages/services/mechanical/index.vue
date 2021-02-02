@@ -1,8 +1,6 @@
 <template>
   <page-layout name="Mechanical Repair">
-    <template v-slot:header>
-      Our mechanical repair services meet all US DOT regulations.
-    </template>
+    <template v-slot:header> </template>
     <template v-slot:content>
       <ServiceChips :items="items" />
       <ServiceNav :next="next" />

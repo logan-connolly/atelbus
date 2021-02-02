@@ -1,8 +1,6 @@
 <template>
   <page-layout name="RV & Additional Services">
-    <template v-slot:header>
-      Our custom paint services meet all US DOT regulations.
-    </template>
+    <template v-slot:header> </template>
     <template v-slot:content>
       <ServiceChips :items="items" />
       <ServiceVideo :url="url" />
@@ -38,7 +36,6 @@ export default {
       url: "https://youtube.com/embed/Lz8min0XaZw",
       items: [
         "Custom Parts",
-        "RV Body, Mechanical and Paint",
         "Wheelchair Lift Service",
         "Safety Inspections (A, B, C)",
         "Aluminum Wheel Polishing",
