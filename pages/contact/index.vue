@@ -13,13 +13,13 @@
           </a>
         </div>
         <div class="contact-item">
-          <a href="mailto:info@atelbus.com">
+          <a target="_blank" href="mailto:info@atelbus.com">
             <fa :icon="['fas', 'envelope-square']" />
             <span>info@atelbus.com</span>
           </a>
         </div>
         <div class="contact-item contact-item__address">
-          <a href="https://g.page/ATELBusandTruck?share">
+          <a target="_blank" href="https://g.page/ATELBusandTruck?share">
             <fa :icon="['fas', 'map-marker-alt']" />
             <span>12120 Conway Rd</span>
           </a>
