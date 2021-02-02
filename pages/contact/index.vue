@@ -2,7 +2,11 @@
   <page-layout name="Contact Us">
     <template v-slot:header>
       Get in touch with us immediately via phone or email. Or simply stop by and
-      visit us!
+      visit us at
+      <a href="https://g.page/ATELBusandTruck?share"
+        >12120 Conway Rd, Beltsville, MD</a
+      >. We are open <span class="store-hours">Mon-Fri: 8am - 5pm</span>. We are
+      looking forward to hearing from you!
     </template>
     <template v-slot:content>
       <div class="contact-items">
@@ -16,12 +20,6 @@
           <a target="_blank" href="mailto:info@atelbus.com">
             <fa :icon="['fas', 'envelope-square']" />
             <span>info@atelbus.com</span>
-          </a>
-        </div>
-        <div class="contact-item contact-item__address">
-          <a target="_blank" href="https://g.page/ATELBusandTruck?share">
-            <fa :icon="['fas', 'map-marker-alt']" />
-            <span>12120 Conway Rd</span>
           </a>
         </div>
       </div>
@@ -59,11 +57,11 @@ export default {
 <style scoped>
 a {
   text-decoration: none;
-  color: #000;
+  color: #13478e;
 }
 
 a:hover {
-  color: #13478e;
+  color: #071b36;
 }
 
 a svg {
@@ -76,7 +74,12 @@ a span {
 }
 
 iframe {
+  width: 650px;
   height: 350px;
+}
+
+.store-hours {
+  font-weight: 700;
 }
 
 .page-divider {
@@ -100,6 +103,7 @@ iframe {
 
 @media screen and (max-width: 768px) {
   iframe {
+    width: 100%;
     height: 200px;
   }
   .contact-items {

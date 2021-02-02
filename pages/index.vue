@@ -12,7 +12,12 @@
         </div>
         <div class="welcome-text__info-covid">
           <span>COVID-19 information:</span> We remain open during the pandemic,
-          adhering to all CDC guidelines and quality measures.
+          adhering to all
+          <a
+            href="https://govstatus.egov.com/md-coronavirus-business/closures-restrictions-enforcement"
+            >Maryland State Government</a
+          >
+          guidelines and quality measures.
         </div>
       </div>
     </div>
@@ -42,6 +47,14 @@ export default {
 </script>
 
 <style scoped>
+a {
+  text-decoration: none;
+  color: #13478e;
+}
+
+a:hover {
+  color: #071b36;
+}
 .welcome {
   display: flex;
   flex-direction: column;
