@@ -1,9 +1,15 @@
 <template>
   <page-layout name="Services">
     <template v-slot:header>
-      We service buses, RVs, motorhomes, cars & SUVs. Our 40,000 square foot
-      facility is well-equipped to meet your mechanical, collision, glass, frame
-      and A/C needs.
+      <p>
+        We service buses, RVs, motorhomes, cars and SUVs. Our 40,000-square-foot
+        facility is well-equipped to meet your mechanical, collision, glass,
+        frame and A/C needs.
+      </p>
+      <p>
+        All our repair services meet the U.S. Department of Transport (DOT)
+        regulations.
+      </p>
     </template>
     <template v-slot:content>
       <div class="service-grid">
@@ -56,7 +62,7 @@ export default {
           link: "/services/paint"
         },
         {
-          name: "RV & Motorhome Repair",
+          name: "RV & Additional Services",
           img: "/services/rv.webp",
           link: "/services/rv"
         }
@@ -67,6 +73,10 @@ export default {
 </script>
 
 <style>
+p {
+  margin-top: 1rem;
+}
+
 .service-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;

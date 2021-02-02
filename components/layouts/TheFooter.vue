@@ -1,7 +1,10 @@
 <template>
   <footer>
     <div class="contact-info">
-      <a href="tel: +1 (301) 210-5100">(301) 210-5100</a>
+      <a href="tel: +1 (301) 210-5100">
+        <fa :icon="['fas', 'phone-square-alt']" />
+        <span class="contact-info__text">(301) 210-5100</span></a
+      >
     </div>
     <div class="company-name">
       © ATEL Bus & Truck Service Center, Inc.
@@ -9,18 +12,24 @@
     <div class="social-media">
       <a
         href="https://www.linkedin.com/company/atel-bus-&-truck-service-center/"
+        target="_blank"
+        rel="noopener"
         title="linkedin"
       >
         <fa :icon="['fab', 'linkedin']" />
       </a>
       <a
         href="https://www.facebook.com/pg/ATEL-Bus-Truck-Service-Center-Inc-406003592850990"
+        target="_blank"
+        rel="noopener"
         title="facebook"
       >
         <fa :icon="['fab', 'facebook-square']" />
       </a>
       <a
         href="https://www.yelp.com/biz/atel-bus-and-truck-service-center-beltsville-2"
+        target="_blank"
+        rel="noopener"
         title="yelp"
       >
         <fa :icon="['fab', 'yelp']" />
@@ -54,7 +63,11 @@ footer {
 
 .contact-info {
   margin-left: 1rem;
-  font-size: 1.1rem;
+  font-size: 24px;
+}
+.contact-info__text {
+  margin-left: 4px;
+  font-size: 1.2rem;
 }
 
 .company-name {

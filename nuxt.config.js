@@ -55,7 +55,12 @@ export default {
       {
         component: "fa",
         icons: {
-          solid: true,
+          solid: [
+            "faAngleDoubleRight",
+            "faAngleDoubleLeft",
+            "faEnvelopeSquare",
+            "faPhoneSquareAlt"
+          ],
           brands: ["faFacebookSquare", "faLinkedin", "faYelp"]
         }
       }

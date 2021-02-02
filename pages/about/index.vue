@@ -2,13 +2,19 @@
   <page-layout name="About">
     <template v-slot:header>
       <p>
-        ATEL Bus & Truck is a family-owned business since its inception in 1994.
-        We provide high quality, reliable and comprehensive bus, truck and RV
+        ATEL Bus & Truck is a family-owned business. Established in 1994, we
+        have over 25 years of experience in motor repairs and services. We
+        provide high quality, reliable and comprehensive bus, truck and RV
         services for the public and private sector.
       </p>
       <p>
-        We thought it would be nice to names to faces before coming into the
-        shop. So come meet the team!
+        We service bus, fleets, recreational vehicles (RV), motorhomes, cars,
+        sport utility vehicle (SUV) and trucks in the Washington D.C. and
+        Baltimore areas. We accept all insurance policies.
+      </p>
+      <p>
+        While it is unfortunate that we cannot offer a handshake, you can still
+        meet the team below:
       </p>
     </template>
 
@@ -17,7 +23,7 @@
         <div class="about-person">
           <nuxt-img src="about/male.png" class="about-person-image" />
           <div class="about-person-info">
-            <div class="about-person-info__name">Brian Connolly</div>
+            <div class="about-person-info__name">Brian</div>
             <div class="about-person-info__title">President</div>
             <div class="about-person-info__desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -29,7 +35,7 @@
         <div class="about-person">
           <nuxt-img src="about/female.png" class="about-person-image" />
           <div class="about-person-info">
-            <div class="about-person-info__name">Roxanne Connolly</div>
+            <div class="about-person-info__name">Roxanne</div>
             <div class="about-person-info__title">Accounts Manager</div>
             <div class="about-person-info__desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed

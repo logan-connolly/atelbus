@@ -6,8 +6,21 @@
         <span class="welcome-text__subtitle">where they belong</span>
       </div>
       <div class="welcome-text__info">
-        Strategically located in Beltsville, MD, we are able to service buses,
-        RVs, cars and SUVs in and around the DMV.
+        <div class="welcome-text__info-msg">
+          Strategically located in Beltsville, MD, we are able to service buses,
+          RVs, cars and SUVs in and around the DMV.
+        </div>
+        <div class="welcome-text__info-covid">
+          <span>COVID-19 information:</span> We remain open during the pandemic,
+          adhering to all
+          <a
+            href="https://govstatus.egov.com/md-coronavirus-business/closures-restrictions-enforcement"
+            target="_blank"
+            rel="noopener"
+            >Maryland State Government</a
+          >
+          guidelines and quality measures.
+        </div>
       </div>
     </div>
     <div class="buttons">
@@ -41,7 +54,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: justify;
 }
 .welcome-text > div {
   margin-top: 2rem;
@@ -56,14 +69,29 @@ export default {
   color: #13478e;
 }
 .welcome-text__info {
-  margin: 1rem 2rem;
+  margin: 1rem 0;
   font-size: 1.2rem;
   color: #4f5869;
+}
+.welcome-text__info-covid {
+  margin-top: 1rem;
+}
+.welcome-text__info-covid span {
+  font-weight: 700;
+  color: #000;
+}
+.welcome-text__info-covid a {
+  text-decoration: none;
+  color: #13478e;
+}
+.welcome-text__info-covid a:hover {
+  color: #071b36;
 }
 @media screen and (max-width: 600px) {
   .welcome-text__title {
     margin-top: 2rem;
     font-size: 2.25rem;
+    text-align: center;
   }
   .welcome-text__subtitle {
     font-size: 2.25rem;
