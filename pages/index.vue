@@ -12,14 +12,21 @@
         </div>
         <div class="welcome-text__info-covid">
           <span>COVID-19 information:</span> We remain open during the pandemic,
-          adhering to all
+          adhering to
           <a
             href="https://govstatus.egov.com/md-coronavirus-business/closures-restrictions-enforcement"
             target="_blank"
             rel="noopener"
             >Maryland State Government</a
           >
-          guidelines and quality measures.
+          and
+          <a
+            href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html"
+            target="_blank"
+            rel="noopener"
+            >CDC</a
+          >
+          guidelines.
         </div>
       </div>
     </div>
