@@ -56,7 +56,7 @@ export default {
           link: "/services/paint"
         },
         {
-          name: "RV & Motorhome Repair",
+          name: "RV & Additional Services",
           img: "/services/rv.webp",
           link: "/services/rv"
         }
