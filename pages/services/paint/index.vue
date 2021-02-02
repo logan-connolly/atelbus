@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      url: "https://www.youtube.com/embed/31PiyGpkIbc",
+      url: "https://www.youtube.com/embed/hBOC1UCI_g4",
       items: [
         "Graphic Design",
         "Vehicle Wraps",

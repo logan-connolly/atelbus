@@ -23,7 +23,7 @@
         <div class="about-person">
           <nuxt-img src="about/male.png" class="about-person-image" />
           <div class="about-person-info">
-            <div class="about-person-info__name">Brian Connolly</div>
+            <div class="about-person-info__name">Brian</div>
             <div class="about-person-info__title">President</div>
             <div class="about-person-info__desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -35,7 +35,7 @@
         <div class="about-person">
           <nuxt-img src="about/female.png" class="about-person-image" />
           <div class="about-person-info">
-            <div class="about-person-info__name">Roxanne Connolly</div>
+            <div class="about-person-info__name">Roxanne</div>
             <div class="about-person-info__title">Accounts Manager</div>
             <div class="about-person-info__desc">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed

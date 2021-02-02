@@ -24,6 +24,13 @@ export default {
   width: 560px;
   height: 315px;
 }
+
+@media screen and (min-width: 1000px) {
+  .video > iframe {
+    width: 720px;
+    height: 420px;
+  }
+}
 @media screen and (max-width: 768px) {
   .video > iframe {
     width: 100%;

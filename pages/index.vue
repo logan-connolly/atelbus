@@ -15,6 +15,8 @@
           adhering to all
           <a
             href="https://govstatus.egov.com/md-coronavirus-business/closures-restrictions-enforcement"
+            target="_blank"
+            rel="noopener"
             >Maryland State Government</a
           >
           guidelines and quality measures.
@@ -47,14 +49,6 @@ export default {
 </script>
 
 <style scoped>
-a {
-  text-decoration: none;
-  color: #13478e;
-}
-
-a:hover {
-  color: #071b36;
-}
 .welcome {
   display: flex;
   flex-direction: column;
@@ -75,7 +69,7 @@ a:hover {
   color: #13478e;
 }
 .welcome-text__info {
-  margin: 1rem 1rem;
+  margin: 1rem 0;
   font-size: 1.2rem;
   color: #4f5869;
 }
@@ -85,6 +79,13 @@ a:hover {
 .welcome-text__info-covid span {
   font-weight: 700;
   color: #000;
+}
+.welcome-text__info-covid a {
+  text-decoration: none;
+  color: #13478e;
+}
+.welcome-text__info-covid a:hover {
+  color: #071b36;
 }
 @media screen and (max-width: 600px) {
   .welcome-text__title {

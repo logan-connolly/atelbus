@@ -3,7 +3,10 @@
     <template v-slot:header>
       Get in touch with us immediately via phone or email. Or simply stop by and
       visit us at
-      <a href="https://g.page/ATELBusandTruck?share"
+      <a
+        href="https://g.page/ATELBusandTruck?share"
+        target="_blank"
+        rel="noopener"
         >12120 Conway Rd, Beltsville, MD</a
       >. We are open <span class="store-hours">Mon-Fri: 8am - 5pm</span>. We are
       looking forward to hearing from you!
