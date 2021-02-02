@@ -29,7 +29,6 @@
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12392.555081894823!2d-76.8861638!3d39.0577516!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd27dd8b154634017!2sATEL%20Bus%20and%20Truck%20Service%20Center%2C%20Inc.!5e0!3m2!1sen!2sde!4v1611768520264!5m2!1sen!2sde"
           width="100%"
-          height="420"
           frameborder="0"
           style="border:0;"
           allowfullscreen=""
@@ -58,21 +57,6 @@ export default {
 </script>
 
 <style scoped>
-.page-divider {
-  margin-bottom: 2rem;
-}
-
-.contact-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.contact-item {
-  padding-left: 2rem;
-  padding-bottom: 1.2rem;
-}
-
 a {
   text-decoration: none;
   color: #000;
@@ -91,17 +75,36 @@ a span {
   margin-left: 10px;
 }
 
+iframe {
+  height: 350px;
+}
+
+.page-divider {
+  margin-bottom: 2rem;
+}
+
+.contact-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-item {
+  padding-left: 2rem;
+  padding-bottom: 1.2rem;
+}
+
 .map {
   margin-top: 2rem;
 }
 
 @media screen and (max-width: 768px) {
+  iframe {
+    height: 200px;
+  }
   .contact-items {
     justify-content: flex-start;
     padding: 1.5rem;
-  }
-  .map {
-    display: none;
   }
 }
 </style>

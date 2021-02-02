@@ -23,7 +23,7 @@ export default {
   flex-direction: column;
   align-items: center;
   margin-top: 2rem;
-  text-align: center;
+  text-align: justify;
 }
 
 .page-name {
@@ -45,6 +45,11 @@ export default {
   border: 2px solid #13478e;
 }
 
+@media screen and (max-width: 768px) {
+  .page {
+    text-align: center;
+  }
+}
 @media screen and (min-width: 1000px) {
   .page-desc {
     margin: 1rem 8rem;

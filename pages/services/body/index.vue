@@ -1,7 +1,7 @@
 <template>
   <page-layout name="Body Repair">
     <template v-slot:header>
-      Our body repair services meet all US DOT regulations.
+      Our repair services meet all U.S. Department of Transport regulations.
     </template>
     <template v-slot:content>
       <ServiceChips :items="items" />

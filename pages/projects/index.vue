@@ -1,7 +1,7 @@
 <template>
   <page-layout name="Projects">
     <template v-slot:header>
-      Checkout some of the work that we have done for our customers.
+      Below, you can find some of the work that we have done for our customers.
     </template>
     <template v-slot:content>
       <div class="projects">
