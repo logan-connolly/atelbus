@@ -26,15 +26,24 @@ export default {
 <style>
 .service-nav-items {
   display: flex;
-  justify-content: space-between;
-  margin-top: 3rem;
+  justify-content: space-around;
+  margin-top: 4rem;
 }
 .service-nav-item {
   text-decoration: none;
-  color: #000;
+  color: #13478e;
   font-size: 1.2rem;
+  font-weight: 700;
 }
 .service-nav-item:hover {
-  color: #13478e;
+  color: #071b36;
+}
+@media screen and (max-width: 768px) {
+  .service-nav-items {
+    justify-content: space-between;
+  }
+  .service-nav-item {
+    font-size: 1.1rem;
+  }
 }
 </style>

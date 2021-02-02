@@ -30,4 +30,9 @@ export default {
   background-color: #13478e;
   color: white;
 }
+@media screen and (min-width: 1200px) {
+  .chips {
+    margin: 0 8rem;
+  }
+}
 </style>
