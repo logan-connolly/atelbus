@@ -18,6 +18,7 @@ export default {
 <style scoped>
 .video {
   margin-top: 2rem;
+  text-align: center;
 }
 .video > iframe {
   width: 560px;
