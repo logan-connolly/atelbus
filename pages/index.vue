@@ -1,10 +1,10 @@
 <template>
   <div class="welcome">
     <div class="welcome-text">
-      <div class="welcome-text__title">
+      <h1 class="welcome-text__title">
         Keep your vehicles on the road
         <span class="welcome-text__subtitle">where they belong</span>
-      </div>
+      </h1>
       <div class="welcome-text__info">
         <div class="welcome-text__info-msg">
           Strategically located in Beltsville, MD, we are able to service buses,

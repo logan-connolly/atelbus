@@ -51,6 +51,13 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     [
+      "@nuxtjs/sitemap",
+      {
+        hostname: "https://atelbus.com",
+        gzip: true
+      }
+    ],
+    [
       "@nuxtjs/google-analytics",
       {
         id: process.env.GA_TRACKING_ID || "UA-XXX-X"
