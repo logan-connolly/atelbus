@@ -18,21 +18,20 @@
       </p>
     </template>
     <template v-slot:content> </template>
+</template>
 
-    <script>
-      export default {
-        head: {
-          title: "ATEL | About",
-          meta: [
-            {
-              hid: "description",
-              name: "description",
-              content:
-                "ATEL Bus & Truck's company history and introduction to team"
-            }
-          ]
-        }
-      };
-    </script>
-  </page-layout></template
->
+<script>
+export default {
+  head: {
+    title: "ATEL | About",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "ATEL Bus & Truck's company history and introduction to team"
+      }
+    ]
+  }
+};
+</script>
