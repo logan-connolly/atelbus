@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <div class="page-name">{{ name }}</div>
+    <h1 class="page-name">{{ name }}</h1>
     <div class="page-desc">
       <slot name="header"></slot>
     </div>
