@@ -30,7 +30,7 @@ import ServiceCard from "@/components/services/ServiceCard.vue";
 
 export default {
   head: {
-    title: "ATEL | Services",
+    title: "ATEL Bus & Truck | Services",
     meta: [
       {
         hid: "description",

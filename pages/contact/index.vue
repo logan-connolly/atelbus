@@ -44,7 +44,7 @@
 <script>
 export default {
   head: {
-    title: "ATEL | Contact",
+    title: "ATEL Bus & Truck | Contact",
     meta: [
       {
         hid: "description",
