@@ -1,20 +1,9 @@
-# atelbus
+# ATEL Bus & Truck
 
-## Build Setup
+Company [website](https://atelbus.com) for ATEL Bus & Truck.
 
-```bash
-# install dependencies
-$ npm install
+Keep your vehicles on the road **where they belong.** :bus: :minibus: :truck:
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+Strategically located in Beltsville, MD, we are able to service buses, RVs, cars and SUVs in and around the DMV.
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Contact us at [info@atelbus.com](mailto:info@atelbus.com) or stop by our shop at [12120 Conway Road](https://g.page/ATELBusandTruck?share).
