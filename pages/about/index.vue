@@ -12,10 +12,6 @@
         sport utility vehicle (SUV) and trucks in the Washington D.C. and
         Baltimore areas. We accept all insurance policies.
       </p>
-      <p>
-        While it is unfortunate that we cannot offer a handshake, you can still
-        meet the team below:
-      </p>
     </template>
     <template v-slot:content> </template>
   </page-layout>
