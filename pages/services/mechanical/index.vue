@@ -14,7 +14,7 @@ import ServiceNav from "@/components/services/ServiceNav.vue";
 
 export default {
   head: {
-    title: "ATEL | Services - Mechanical",
+    title: "ATEL Bus & Truck | Services - Mechanical",
     meta: [
       {
         hid: "description",

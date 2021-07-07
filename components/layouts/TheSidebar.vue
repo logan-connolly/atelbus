@@ -6,7 +6,6 @@
         <ul class="nav-list" @click="$emit('close')">
           <nuxt-link to="/" class="nav-item">Home</nuxt-link>
           <nuxt-link to="/services" class="nav-item">Services</nuxt-link>
-          <nuxt-link to="/projects" class="nav-item">Projects</nuxt-link>
           <nuxt-link to="/about" class="nav-item">About</nuxt-link>
           <nuxt-link to="/contact" class="nav-item">Contact</nuxt-link>
         </ul>

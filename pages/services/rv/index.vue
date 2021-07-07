@@ -16,7 +16,7 @@ import ServiceVideo from "@/components/services/ServiceVideo.vue";
 
 export default {
   head: {
-    title: "ATEL | Services - RV & Additional",
+    title: "ATEL Bus & Truck | Services - RV & Additional",
     meta: [
       {
         hid: "description",
