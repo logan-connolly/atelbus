@@ -6,28 +6,19 @@
         <span class="welcome-text__subtitle">where they belong</span>
       </h1>
       <div class="welcome-text__info">
-        <div class="welcome-text__info-msg">
-          Strategically located in Beltsville, MD, we are able to service buses,
-          RVs, cars and SUVs in and around the DMV.
-        </div>
-        <div class="welcome-text__info-covid">
-          <span>COVID-19 information:</span> We remain open during the pandemic,
-          adhering to
-          <a
-            href="https://govstatus.egov.com/md-coronavirus-business/closures-restrictions-enforcement"
-            target="_blank"
-            rel="noopener"
-            >Maryland State Government</a
-          >
-          and
-          <a
-            href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html"
-            target="_blank"
-            rel="noopener"
-            >CDC</a
-          >
-          guidelines.
-        </div>
+        <p>
+          At ATEL, we specialize in repairing and maintaining buses, RVs, and
+          trucks in the DMV area. Our team of experienced technicians is
+          well-versed in the complexities of these types of vehicles and is
+          equipped with the latest tools and technologies to diagnose and repair
+          any issue.
+        </p>
+        <p>
+          If you're in need of high-quality service for your bus, RV, or truck,
+          look no further than ATEL. Contact us today to schedule an
+          appointment, and let us take care of all your maintenance and repair
+          needs.
+        </p>
       </div>
     </div>
     <div class="buttons">
@@ -79,20 +70,6 @@ export default {
   margin: 1rem 0;
   font-size: 1.2rem;
   color: #4f5869;
-}
-.welcome-text__info-covid {
-  margin-top: 1rem;
-}
-.welcome-text__info-covid span {
-  font-weight: 700;
-  color: #000;
-}
-.welcome-text__info-covid a {
-  text-decoration: none;
-  color: #13478e;
-}
-.welcome-text__info-covid a:hover {
-  color: #071b36;
 }
 @media screen and (max-width: 600px) {
   .welcome-text__title {
