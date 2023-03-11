@@ -1,15 +1,16 @@
 <template>
   <page-layout name="Services">
     <template v-slot:header>
-      <p>
-        We service buses, RVs, motorhomes, cars and SUVs. Our 40,000-square-foot
-        facility is well-equipped to meet your mechanical, collision, glass,
-        frame and A/C needs.
-      </p>
-      <p>
-        All our repair services meet the U.S. Department of Transport (DOT)
-        regulations.
-      </p>
+      ATEL provides vehicle maintenance and repair services for buses, RVs,
+      motorhomes, cars, and SUVs in Beltsville, MD. Our 40,000-square-foot
+      facility offers comprehensive mechanical, collision, glass, frame, and A/C
+      services that meet
+      <a
+        href="https://www.transportation.gov/regulations"
+        target="_blank"
+        rel="noopener"
+        >DOT regulations</a
+      >.
     </template>
     <template v-slot:content>
       <div class="service-grid">
@@ -73,8 +74,13 @@ export default {
 </script>
 
 <style>
-p {
-  margin-top: 1rem;
+a {
+  text-decoration: none;
+  color: #13478e;
+}
+
+a:hover {
+  color: #071b36;
 }
 
 .service-grid {
