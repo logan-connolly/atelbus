@@ -2,14 +2,14 @@
   <div class="service-nav-items">
     <nuxt-link class="service-nav-item" to="/services">
       <span>
-        <fa :icon="['fas', 'angle-double-left']" />
+        <font-awesome-icon :icon="['fas', 'angle-double-left']" />
       </span>
       All Services
     </nuxt-link>
     <nuxt-link class="service-nav-item" :to="nextLink">
       {{ nextPage }}
       <span>
-        <fa :icon="['fas', 'angle-double-right']" />
+        <font-awesome-icon :icon="['fas', 'angle-double-right']" />
       </span>
     </nuxt-link>
   </div>

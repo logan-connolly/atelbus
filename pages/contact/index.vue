@@ -18,13 +18,13 @@
       <div class="contact-items">
         <div class="contact-item">
           <a href="tel: +1 (301) 210-5100">
-            <fa :icon="['fas', 'phone-square-alt']" />
+            <font-awesome-icon :icon="['fas', 'phone-square-alt']" />
             <span>(301) 210-5100</span>
           </a>
         </div>
         <div class="contact-item">
           <a target="_blank" href="mailto:info@atelbus.com">
-            <fa :icon="['fas', 'envelope-square']" />
+            <font-awesome-icon :icon="['fas', 'envelope-square']" />
             <span>info@atelbus.com</span>
           </a>
         </div>

@@ -2,7 +2,7 @@
   <footer>
     <div class="contact-info">
       <a href="tel: +1 (301) 210-5100">
-        <fa :icon="['fas', 'phone-square-alt']" />
+        <font-awesome-icon :icon="['fas', 'phone-square-alt']" />
         <span class="contact-info__text">(301) 210-5100</span></a
       >
     </div>
@@ -14,7 +14,7 @@
         rel="noopener"
         title="linkedin"
       >
-        <fa :icon="['fab', 'linkedin']" />
+        <font-awesome-icon :icon="['fab', 'linkedin']" />
       </a>
       <a
         href="https://www.facebook.com/pg/ATEL-Bus-Truck-Service-Center-Inc-406003592850990"
@@ -22,7 +22,7 @@
         rel="noopener"
         title="facebook"
       >
-        <fa :icon="['fab', 'facebook-square']" />
+        <font-awesome-icon :icon="['fab', 'facebook-square']" />
       </a>
       <a
         href="https://www.yelp.com/biz/atel-bus-and-truck-service-center-beltsville-2"
@@ -30,7 +30,7 @@
         rel="noopener"
         title="yelp"
       >
-        <fa :icon="['fab', 'yelp']" />
+        <font-awesome-icon :icon="['fab', 'yelp']" />
       </a>
     </div>
   </footer>
