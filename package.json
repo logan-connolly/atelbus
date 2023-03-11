@@ -3,26 +3,31 @@
   "version": "1.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.16.2"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.15.2",
-    "@fortawesome/free-solid-svg-icons": "^5.15.2",
-    "@nuxt/image": "0.0.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@nuxt/image": "0.7.1",
     "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/google-fonts": "^1.2.0",
+    "@nuxtjs/google-fonts": "^3.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
-    "@nuxtjs/svg": "^0.1.12",
-    "eslint": "^7.19.0",
-    "eslint-plugin-vue": "^7.5.0",
-    "nuxt-compress": "^4.1.0"
+    "@nuxtjs/svg": "^0.4.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-vue": "^9.9.0",
+    "nuxt-compress": "^5.0.0",
+    "vue-template-compiler": "^2.0.0",
+    "webpack": "^4.0.0"
+  },
+  "resolutions": {
+    "@nuxt/kit": "3.0.0-rc.13"
   }
 }
