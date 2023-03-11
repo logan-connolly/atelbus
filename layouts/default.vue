@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import TheFooter from "@/components/layouts/TheFooter.vue";
-import TheNavbar from "@/components/layouts/TheNavbar.vue";
-import TheSidebar from "@/components/layouts/TheSidebar.vue";
+import TheFooter from "@/components/TheFooter.vue";
+import TheNavbar from "@/components/TheNavbar.vue";
+import TheSidebar from "@/components/TheSidebar.vue";
 
 export default {
   components: {

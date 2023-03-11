@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import ServiceChips from "@/components/services/ServiceChips.vue";
-import ServiceNav from "@/components/services/ServiceNav.vue";
-import ServiceVideo from "@/components/services/ServiceVideo.vue";
+import ServiceChips from "@/components/ServiceChips.vue";
+import ServiceNav from "@/components/ServiceNav.vue";
+import ServiceVideo from "@/components/ServiceVideo.vue";
 
 export default {
   head: {

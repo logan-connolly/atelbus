@@ -18,12 +18,12 @@
 </template>
 
 <script>
-import TheSidebarToggle from "@/components/layouts/TheSidebarToggle.vue";
+import TheSidebarToggle from "@/components/TheSidebarToggle.vue";
 
 export default {
   components: {
-    TheSidebarToggle
-  }
+    TheSidebarToggle,
+  },
 };
 </script>
 

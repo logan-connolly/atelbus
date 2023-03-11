@@ -9,8 +9,8 @@
 </template>
 
 <script>
-import ServiceChips from "@/components/services/ServiceChips.vue";
-import ServiceNav from "@/components/services/ServiceNav.vue";
+import ServiceChips from "@/components/ServiceChips.vue";
+import ServiceNav from "@/components/ServiceNav.vue";
 
 export default {
   head: {

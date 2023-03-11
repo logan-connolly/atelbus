@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import ServiceCard from "@/components/services/ServiceCard.vue";
+import ServiceCard from "@/components/ServiceCard.vue";
 
 export default {
   head: {
