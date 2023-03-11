@@ -1,15 +1,18 @@
 <template>
   <page-layout name="Contact Us">
     <template v-slot:header>
-      Get in touch with us immediately via phone or email. Or simply stop by and
-      visit us at
+      Looking for expert vehicle maintenance and repair services in the DMV
+      area? Contact ATEL today via phone or email to schedule an appointment or
+      simply stop by our convenient location at
       <a
         href="https://g.page/ATELBusandTruck?share"
         target="_blank"
         rel="noopener"
         >12120 Conway Rd, Beltsville, MD</a
-      >. We are open <span class="store-hours">Mon-Fri: 8am - 5pm</span>. We are
-      looking forward to hearing from you!
+      >. Our experienced technicians are available <strong>Mon-Fri</strong> from
+      <strong>8am-5pm</strong> to provide you with top-notch service and get you
+      back on the road as soon as possible. Don't hesitate to get in touch - we
+      look forward to hearing from you!
     </template>
     <template v-slot:content>
       <div class="contact-items">
