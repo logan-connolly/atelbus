@@ -22,14 +22,14 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "ATEL Bus & Truck paint services consist of full paint jobs, touch-up repairs as well as custom paint jobs and vehicle wraps for buses, trucks, RVs & motorhomes"
-      }
-    ]
+          "ATEL Bus & Truck paint services consist of full paint jobs, touch-up repairs as well as custom paint jobs and vehicle wraps for buses, trucks, RVs & motorhomes",
+      },
+    ],
   },
   components: {
     ServiceChips,
     ServiceNav,
-    ServiceVideo
+    ServiceVideo,
   },
   data() {
     return {
@@ -40,10 +40,10 @@ export default {
         "45' & 65' Heated Paint Booths",
         "Refinishing",
         "Touch-ups",
-        "Decal Removal"
+        "Decal Removal",
       ],
-      next: { name: "RV & Additional Services", url: "/rv" }
+      next: { name: "RV & Additional Services", url: "/rv" },
     };
-  }
+  },
 };
 </script>

@@ -5,7 +5,7 @@ export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     htmlAttrs: {
-      lang: "en"
+      lang: "en",
     },
     title: "ATEL Bus & Truck",
     meta: [
@@ -14,29 +14,29 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "ATEL Bus & Truck Company Website"
-      }
+        content: "ATEL Bus & Truck Company Website",
+      },
     ],
     link: [
       {
         rel: "apple-touch-icon",
         sizes: "180x180",
-        href: "/apple-touch-icon.png"
+        href: "/apple-touch-icon.png",
       },
       {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: "/favicon-32x32.png"
+        href: "/favicon-32x32.png",
       },
       {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: "/favicon-16x16.png"
+        href: "/favicon-16x16.png",
       },
-      { rel: "manifest", href: "/site.webmanifest" }
-    ]
+      { rel: "manifest", href: "/site.webmanifest" },
+    ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -54,14 +54,14 @@ export default {
       "@nuxtjs/sitemap",
       {
         hostname: "https://atelbus.com",
-        gzip: true
-      }
+        gzip: true,
+      },
     ],
     [
       "@nuxtjs/google-analytics",
       {
-        id: process.env.GA_TRACKING_ID || "UA-XXX-X"
-      }
+        id: process.env.GA_TRACKING_ID || "UA-XXX-X",
+      },
     ],
     [
       "@nuxtjs/fontawesome",
@@ -72,11 +72,11 @@ export default {
             "faAngleDoubleRight",
             "faAngleDoubleLeft",
             "faEnvelopeSquare",
-            "faPhoneSquareAlt"
+            "faPhoneSquareAlt",
           ],
-          brands: ["faFacebookSquare", "faLinkedin", "faYelp"]
-        }
-      }
+          brands: ["faFacebookSquare", "faLinkedin", "faYelp"],
+        },
+      },
     ],
     [
       "@nuxtjs/google-fonts",
@@ -85,27 +85,27 @@ export default {
         display: "swap",
         families: {
           Cantarell: {
-            wght: [400, 700]
-          }
-        }
-      }
+            wght: [400, 700],
+          },
+        },
+      },
     ],
     [
       "nuxt-compress",
       {
         gzip: {
-          cache: true
+          cache: true,
         },
         brotli: {
-          threshold: 10240
-        }
-      }
-    ]
+          threshold: 10240,
+        },
+      },
+    ],
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: ["@nuxt/image"],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {}
+  build: {},
 };

@@ -37,12 +37,12 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "ATEL Bus & Truck body, mechanical, paint and RV services for buses, trucks, RVs & motorhomes"
-      }
-    ]
+          "ATEL Bus & Truck body, mechanical, paint and RV services for buses, trucks, RVs & motorhomes",
+      },
+    ],
   },
   components: {
-    ServiceCard
+    ServiceCard,
   },
   data() {
     return {
@@ -50,26 +50,26 @@ export default {
         {
           name: "Body Repair",
           img: "/services/body.webp",
-          link: "/services/body"
+          link: "/services/body",
         },
         {
           name: "Mechanical Repair",
           img: "/services/mechanical.webp",
-          link: "/services/mechanical"
+          link: "/services/mechanical",
         },
         {
           name: "Custom Paint",
           img: "/services/paint.webp",
-          link: "/services/paint"
+          link: "/services/paint",
         },
         {
           name: "RV & Additional Services",
           img: "/services/rv.webp",
-          link: "/services/rv"
-        }
-      ]
+          link: "/services/rv",
+        },
+      ],
     };
-  }
+  },
 };
 </script>
 

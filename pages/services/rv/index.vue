@@ -22,14 +22,14 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "ATEL Bus & Truck RV and additional services consists of special type of repairs that the average repair shops do not provide for buses, trucks, RVs & motorhomes"
-      }
-    ]
+          "ATEL Bus & Truck RV and additional services consists of special type of repairs that the average repair shops do not provide for buses, trucks, RVs & motorhomes",
+      },
+    ],
   },
   components: {
     ServiceChips,
     ServiceNav,
-    ServiceVideo
+    ServiceVideo,
   },
   data() {
     return {
@@ -40,10 +40,10 @@ export default {
         "Safety Inspections (A, B, C)",
         "Aluminum Wheel Polishing",
         "Waste & Water System",
-        "Slide-Out Rooms"
+        "Slide-Out Rooms",
       ],
-      next: { name: "Body Services", url: "/body" }
+      next: { name: "Body Services", url: "/body" },
     };
-  }
+  },
 };
 </script>

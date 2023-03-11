@@ -18,13 +18,13 @@ export default {
   components: {
     TheFooter,
     TheNavbar,
-    TheSidebar
+    TheSidebar,
   },
   data() {
     return {
-      displaySidebar: false
+      displaySidebar: false,
     };
-  }
+  },
 };
 </script>
 

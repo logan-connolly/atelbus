@@ -6,9 +6,7 @@
         <span class="contact-info__text">(301) 210-5100</span></a
       >
     </div>
-    <div class="company-name">
-      © ATEL Bus & Truck Service Center, Inc.
-    </div>
+    <div class="company-name">© ATEL Bus & Truck Service Center, Inc.</div>
     <div class="social-media">
       <a
         href="https://www.linkedin.com/company/atel-bus-&-truck-service-center/"

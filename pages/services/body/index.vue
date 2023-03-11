@@ -22,14 +22,14 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "ATEL Bus & Truck body services focus on repairs of the frame, windshield, windows, roof, doors, fenders, bumpers, hood, trunk, etc. for buses, trucks, RVs & motorhomes"
-      }
-    ]
+          "ATEL Bus & Truck body services focus on repairs of the frame, windshield, windows, roof, doors, fenders, bumpers, hood, trunk, etc. for buses, trucks, RVs & motorhomes",
+      },
+    ],
   },
   components: {
     ServiceChips,
     ServiceNav,
-    ServiceVideo
+    ServiceVideo,
   },
   data() {
     return {
@@ -41,10 +41,10 @@ export default {
         "Vehicle Refurbishing",
         "Glass Replacement Services",
         "Window Tinting",
-        "Soda Blasting"
+        "Soda Blasting",
       ],
-      next: { name: "Mechanical Services", url: "/mechanical" }
+      next: { name: "Mechanical Services", url: "/mechanical" },
     };
-  }
+  },
 };
 </script>

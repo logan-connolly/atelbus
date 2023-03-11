@@ -39,10 +39,10 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "ATEL Bus & Truck Home Page"
-      }
-    ]
-  }
+        content: "ATEL Bus & Truck Home Page",
+      },
+    ],
+  },
 };
 </script>
 

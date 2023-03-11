@@ -20,13 +20,13 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "ATEL Bus & Truck mechanical services focus on repairs such as oil changes, electrical repairs, transmissions, engine failure, etc. for buses, trucks, RVs & motorhomes"
-      }
-    ]
+          "ATEL Bus & Truck mechanical services focus on repairs such as oil changes, electrical repairs, transmissions, engine failure, etc. for buses, trucks, RVs & motorhomes",
+      },
+    ],
   },
   components: {
     ServiceChips,
-    ServiceNav
+    ServiceNav,
   },
   data() {
     return {
@@ -36,10 +36,10 @@ export default {
         "Diesel & Gasoline Induction",
         "Exhaust Gas Recirculation",
         "Transmission",
-        "Power Steering"
+        "Power Steering",
       ],
-      next: { name: "Paint Services", url: "/paint" }
+      next: { name: "Paint Services", url: "/paint" },
     };
-  }
+  },
 };
 </script>

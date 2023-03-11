@@ -21,9 +21,9 @@ export default {
   data() {
     return {
       nextPage: this.next.name,
-      nextLink: "/services" + this.next.url
+      nextLink: "/services" + this.next.url,
     };
-  }
+  },
 };
 </script>
 
